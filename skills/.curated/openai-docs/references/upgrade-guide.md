@@ -4,7 +4,7 @@ Use this guide when the user explicitly asks to upgrade an existing integration 
 
 ## Freshness check
 
-Before applying this bundled guide for a latest/current/default model upgrade, run `node scripts/resolve-latest-model-info.js` from the OpenAI Docs skill directory.
+Before applying this bundled guide for a latest/current/default model upgrade, run the platform wrapper from the OpenAI Docs skill directory: `scripts/resolve-latest-model-info` on macOS/Linux or `scripts\resolve-latest-model-info.cmd` on native Windows.
 
 - If the command returns `modelSlug: "gpt-5p5"`, continue with this bundled guide and use `references/prompting-guide.md` when prompt updates are needed.
 - If the command returns a different `modelSlug`, fetch both the returned `migrationGuideUrl` and `promptingGuideUrl` and use them as the current source of truth instead of the bundled references.
