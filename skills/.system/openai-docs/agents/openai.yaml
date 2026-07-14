@@ -11,4 +11,4 @@ dependencies:
       value: "openaiDeveloperDocs"
       description: "OpenAI Developer Docs MCP server"
       transport: "streamable_http"
-      url: "https://developers.openai.com/mcp"
+      url: "https://developers.openai.com/mcp?source=codex"
